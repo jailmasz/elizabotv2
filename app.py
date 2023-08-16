@@ -1,8 +1,8 @@
 import requests
 import streamlit as st
 
-BASE_API_URL = "https://langflow-nvuj.onrender.com/api/v1/process"
-FLOW_ID = "bda5a03f-bf97-497c-8ef6-b6d950cdeb25"
+BASE_API_URL = "https://langflow-ivrh.onrender.com/api/v1/process"
+FLOW_ID = "8faa84ff-7405-4b10-b302-677d3b2da390"
 
 TWEAKS = {
     "ChatOpenAI-01nzK": {},
