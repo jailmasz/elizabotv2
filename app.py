@@ -7,7 +7,7 @@ load_dotenv()
 
 openai_api_key = os.environ.get("OPENAI_API_KEY")
 
-flow = load_flow_from_json("elizabot.json")
+flow = load_flow_from_json("flow/elizabot.json")
 
 
 def add_bg_from_url():
