@@ -40,7 +40,7 @@ def main():
         st.session_state.messages = []
 
     for message in st.session_state.messages:
-        with st.chat_message(message["role"], avatar=message["avatar"]):
+        with st.chat_message(message["role"]):
             st.write(message["content"])
 
     with st.container():
@@ -48,7 +48,7 @@ def main():
             """
             <style>
             .stChatFloatingInputContainer {
-                background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg");
+                background-image: url("https://cdn.pixabay.com/photo/2023/02/06/18/30/ai-generated-7772547_640.jpg");
                 background-attachment: fixed;
                 background-size: cover;
                 padding: 10px;
