@@ -15,7 +15,7 @@ def add_bg_from_url():
         """
         <style>
         .stApp {
-            background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg");
+            background-image: url("https://cdn.pixabay.com/photo/2023/02/06/18/30/ai-generated-7772547_640.jpg");
             background-attachment: fixed;
             background-size: cover;
             min-height: 100vh;
